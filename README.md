@@ -19,6 +19,6 @@ test on legacy, POO
 
 - Si une méthode d'une classe mère n'est pas redéfinie ou « polymorphée », à l'appel de cette méthode par le biais d'un objet enfant, c'est la méthode de la classe mère qui sera utilisée. <br/>
 
-- Vous ne pouvez pas hériter d'une classe déclaréefinal. <br/>
+- Vous ne pouvez pas hériter d'une classe déclarée final. <br/>
 
-- Une méthode déclaréefinaln'est pas redéfinissable. <br/>
+- Une méthode déclarée final n'est pas redéfinissable. <br/>
