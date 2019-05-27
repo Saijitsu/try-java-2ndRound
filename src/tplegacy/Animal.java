@@ -18,9 +18,9 @@ public class Animal {
 
 	public int setAge(int age, int max) {
 		if (age <= max && age >= 0) {
-			return this.age = age;	
+			return this.age = age;
 		} else {
-			throw new ArithmeticException("Animal age must be between (include) 0 & " + this.age +" !");
+			throw new ArithmeticException("Animal age must be between (include) 0 & " + this.age + " !");
 		}
 	}
 
@@ -36,5 +36,5 @@ public class Animal {
 	public String toString() {
 		return "Animal [name=" + name + ", age=" + age + "]";
 	}
-	
+
 }

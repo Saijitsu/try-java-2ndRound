@@ -1,10 +1,15 @@
 import tplegacy.Giraffe;
 import tplegacy.Wolf;
+import tplegacy.version2.*;
 
-public class MainTP {
+public class MainTP2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Animal Class default
+		System.out.println("Class Animal");
+		Animal animal = new Animal("Animal", 45, 80);
+		animal.setAge(88);
+		System.out.println(animal.toString());
 
 		// Animal Legacy > Giraffe
 		Giraffe puppet = new Giraffe("Puppet", 12);
