@@ -19,6 +19,8 @@ test on legacy, POO
 
 - Si une méthode d'une classe mère n'est pas redéfinie ou « polymorphée », à l'appel de cette méthode par le biais d'un objet enfant, c'est la méthode de la classe mère qui sera utilisée. <br/>
 
+-  Alors que l'héritage concerne les classes (et leur hiérarchie), le polymorphisme est relatif aux méthodes des objets <br/>
+
 - Vous ne pouvez pas hériter d'une classe déclarée final. <br/>
 
 - Une méthode déclarée final n'est pas redéfinissable. <br/>
